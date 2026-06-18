@@ -4,42 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bespoke Cakes Darlington | Luxury Wedding & Celebration Cakes</title>
-    <!-- Google Fonts for Elegant Typography -->
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
-    <!-- Tailwind CSS CDN -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        cakeCream: '#FDFBF7',
-                        cakeCharcoal: '#2D2B2A',
-                        cakeBlush: '#E8C5C8',
-                        cakeBlushHover: '#DBB0B4',
-                        cakeGold: '#D4AF37'
-                    },
-                    fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
-                        sans: ['Plus Jakarta Sans', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <script src="https://jsdelivr.net"></script>
-    <style>
-        html { scroll-behavior: smooth; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Corrected Google Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg-cakeCream text-cakeCharcoal font-sans antialiased">
 
     <!-- Header Navigation -->
     <header class="fixed top-0 left-0 w-full bg-cakeCream/95 backdrop-blur-sm z-50 border-b border-cakeBlush/20">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="font-serif text-2xl tracking-wide text-cakeCharcoal">
-                Darlington<span class="text-cakeBlush">CakeCo.</span>
+                Dory's<span class="text-cakeBlush"> Cakes</span>
             </a>
             
             <!-- Desktop Nav -->
@@ -47,7 +25,7 @@
                 <a href="#gallery" class="hover:text-cakeBlush transition-colors">Gallery</a>
                 <a href="#process" class="hover:text-cakeBlush transition-colors">How to Order</a>
                 <a href="#delivery" class="hover:text-cakeBlush transition-colors">Delivery</a>
-                <a href="#enquire" class="bg-cakeCharcoal text-cakeCream px-5 py-2.5 rounded-full hover:bg-cakeBlush hover:text-cakeCharcoal transition-all">Enquire Now</a>
+                <a href="https://www.facebook.com/profile.php?id=61590522572174&__cft__[0]=AZaWzwubvYyrVG-V1qXTDLmyaNt_jYK3cFanpUsn_y_RrlLwmxqgYeXUmaIFduw3I5XmZS8lZNE6wzRp4gmfU_F-M87Dw0MqdmLfxc64wi9FiJIHAtTvBKzvGnY0P0RtP1jzHlQFUhf7MGMzKdinO_aNZjInmEcgzjLhq02k6Pxv-3qpJT1IoIhREmCNwgR1iMS0Je2LYjDN1JgG2xvNVC6c3dcHr0cA865Q7N08o-LL1g&__tn__=-UC%2CP-R" class="bg-cakeCharcoal text-cakeCream px-5 py-2.5 rounded-full hover:bg-cakeBlush hover:text-cakeCharcoal transition-all">Enquire Now</a>
             </nav>
 
             <!-- Mobile Menu Button -->
@@ -61,7 +39,7 @@
             <a href="#gallery" class="mobile-link block py-2">Gallery</a>
             <a href="#process" class="mobile-link block py-2">How to Order</a>
             <a href="#delivery" class="mobile-link block py-2">Delivery</a>
-            <a href="#enquire" class="mobile-link bg-cakeCharcoal text-cakeCream text-center px-5 py-3 rounded-full block">Enquire Now</a>
+            <a href="https://www.facebook.com/profile.php?id=61590522572174&__cft__[0]=AZaWzwubvYyrVG-V1qXTDLmyaNt_jYK3cFanpUsn_y_RrlLwmxqgYeXUmaIFduw3I5XmZS8lZNE6wzRp4gmfU_F-M87Dw0MqdmLfxc64wi9FiJIHAtTvBKzvGnY0P0RtP1jzHlQFUhf7MGMzKdinO_aNZjInmEcgzjLhq02k6Pxv-3qpJT1IoIhREmCNwgR1iMS0Je2LYjDN1JgG2xvNVC6c3dcHr0cA865Q7N08o-LL1g&__tn__=-UC%2CP-R" class="mobile-link bg-cakeCharcoal text-cakeCream text-center px-5 py-3 rounded-full block">Enquire Now</a>
         </nav>
     </header>
 
@@ -70,13 +48,13 @@
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
             <span class="text-sm font-semibold tracking-widest uppercase text-cakeBlush bg-cakeBlush/10 px-4 py-1.5 rounded-full">Bespoke Artisan Baker</span>
             <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-cakeCharcoal leading-tight">
-                Bespoke Celebration & Wedding Cakes in Darlington
+                Bespoke Celebration Cakes in Darlington
             </h1>
             <p class="text-lg text-cakeCharcoal/80 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                 Beautifully handcrafted, delicious custom creations tailored perfectly for your special milestones. Baked fresh locally with premium ingredients.
             </p>
             <div class="pt-4 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                <a href="#enquire" class="bg-cakeCharcoal text-cakeCream text-center font-semibold px-8 py-4 rounded-full hover:bg-cakeBlush hover:text-cakeCharcoal transition-all shadow-md">
+                <a href="https://www.facebook.com/profile.php?id=61590522572174&__cft__[0]=AZaWzwubvYyrVG-V1qXTDLmyaNt_jYK3cFanpUsn_y_RrlLwmxqgYeXUmaIFduw3I5XmZS8lZNE6wzRp4gmfU_F-M87Dw0MqdmLfxc64wi9FiJIHAtTvBKzvGnY0P0RtP1jzHlQFUhf7MGMzKdinO_aNZjInmEcgzjLhq02k6Pxv-3qpJT1IoIhREmCNwgR1iMS0Je2LYjDN1JgG2xvNVC6c3dcHr0cA865Q7N08o-LL1g&__tn__=-UC%2CP-R" class="bg-cakeCharcoal text-cakeCream text-center font-semibold px-8 py-4 rounded-full hover:bg-cakeBlush hover:text-cakeCharcoal transition-all shadow-md">
                     Enquire Now
                 </a>
                 <a href="#gallery" class="border border-cakeCharcoal/20 text-center font-semibold px-8 py-4 rounded-full hover:bg-cakeCharcoal/5 transition-all">
@@ -87,9 +65,15 @@
         <!-- Hero Visual Placeholder Container -->
         <div class="lg:col-span-5 relative h-80 sm:h-[450px] bg-neutral-200 rounded-3xl overflow-hidden shadow-xl border border-cakeBlush/20">
             <div class="absolute inset-0 flex flex-col items-center justify-center text-neutral-500 bg-neutral-100 p-6 text-center">
-                <svg class="w-12 h-12 mb-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                <span class="font-serif font-semibold text-lg text-cakeCharcoal">Showcase Wedding Cake Image</span>
-                <span class="text-xs mt-1">(Replace with high-res portrait file)</span>
+        <div class="lg:col-span-5 relative h-80 sm:h-[450px] rounded-3xl overflow-hidden shadow-xl border border-cakeBlush/20 bg-neutral-100">
+            <img 
+                src="./images/main-cake.jpg" 
+                alt="Bespoke luxury wedding cake handcrafted by Dory's Cakes Co." 
+                class="w-full h-full object-cover object-center"
+                loading="eager"
+            />
+        </div>                <span class="font-serif font-semibold text-lg text-cakeCharcoal">Birthay Cake</span>
+                <p class="text-sm text-cakeCharcoal/70 mt-1">Custom iced birthday cake with vibrant drip design and golden butterflies.</p>
             </div>
         </div>
     </section>
@@ -107,7 +91,12 @@
                 <!-- Category 1 -->
                 <div class="group bg-cakeCream rounded-2xl overflow-hidden border border-cakeBlush/15 shadow-sm hover:shadow-md transition-all">
                     <div class="h-64 bg-neutral-200 relative flex items-center justify-center text-neutral-400 text-sm">
-                        <span>[Wedding Cake Photo]</span>
+                        <img 
+                            src="./images/wedding-cake.jpg" 
+                            alt="Luxury multi-tiered wedding cake display" 
+                            class="w-full h-full object-fit object-center group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                            loading="lazy"
+                        />
                     </div>
                     <div class="p-6 space-y-2">
                         <h3 class="font-serif text-xl text-cakeCharcoal font-semibold">Wedding Cakes</h3>
@@ -117,7 +106,12 @@
                 <!-- Category 2 -->
                 <div class="group bg-cakeCream rounded-2xl overflow-hidden border border-cakeBlush/15 shadow-sm hover:shadow-md transition-all">
                     <div class="h-64 bg-neutral-200 relative flex items-center justify-center text-neutral-400 text-sm">
-                        <span>[Birthday Cake Photo]</span>
+                        <img 
+                            src="./images/main-cake.jpg" 
+                            alt="Colorful birthday cake with custom design" 
+                            class="w-full h-full object-fit object-center group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                            loading="lazy"
+                        />
                     </div>
                     <div class="p-6 space-y-2">
                         <h3 class="font-serif text-xl text-cakeCharcoal font-semibold">Celebration & Birthdays</h3>
@@ -127,7 +121,12 @@
                 <!-- Category 3 -->
                 <div class="group bg-cakeCream rounded-2xl overflow-hidden border border-cakeBlush/15 shadow-sm hover:shadow-md transition-all">
                     <div class="h-64 bg-neutral-200 relative flex items-center justify-center text-neutral-400 text-sm">
-                        <span>[Cupcake Box Photo]</span>
+                        <img 
+                            src="./images/cupcake-box.jpg" 
+                            alt="Assortment of colorful cupcakes in a decorative box" 
+                            class="w-full h-full object-fit object-center group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                            loading="lazy"
+                        />
                     </div>
                     <div class="p-6 space-y-2">
                         <h3 class="font-serif text-xl text-cakeCharcoal font-semibold">Cupcakes & Treat Boxes</h3>
